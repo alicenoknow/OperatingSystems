@@ -37,27 +37,26 @@ Save results to a file.
 
 (25%) Add to the Makefile possibility of running tests with different optimization level — -O0…-Os. Results save to a file.
 
-#
-Task 1 - complete
+## Results
+### Task 1 - complete
 	Makefile - commands:
 		- make static - compiles static library
 		- make shared -  compiles shared library
 		- make run - run test program with basic commands as program arguments specified in Makefile
 		- make clean - removes all the unneccessary files, run automatically after 'make run'
 
-Task 2 - complete
-	Makefile - commands:
-		- make static - compiles static library
-		- make shared -  compiles shared library
-		- make run - run tests from file test2.c (for small, medium and large number of pairs and for small, medium, large number of rows in files), puts result to console and saves to file raport2.txt
-		- make clean - removes all the unneccessary files, run automatically after 'make run'
+### Task 2 - complete
+Makefile - commands:
+- make static - compiles static library
+- make shared -  compiles shared library
+- make run - run tests from file test2.c (for small, medium and large number of pairs and for small, medium, large number of rows in files), puts result to console and saves to file raport2.txt
+- make clean - removes all the unneccessary files, run automatically after 'make run'
 
-Task 3 - complete
-	Makefile - commands:
-		- make static - compiles static library
-		- make shared -  compiles shared library
-		- make dynamic - compiles dynamic library
-		- make run - uruchamia przykadowy program z lista komend podana jako argument w pliku Makefile
-    - make clean - removes all the unneccessary files, run automatically after 'make runA' or 'make runB'
-		- make runA - run tests, same as in task 2, for every library compilation method listed above, saves result to file raport3a.txt
-		- make runB - run tests, same as in task 2, for every library compilation method listed above and for four levels of optimalization: none, -O0, -O2, -Os, saves result to file raport3b.txt
+### Task 3 - complete
+Makefile - commands:
+- make static - compiles static library
+- make shared -  compiles shared library
+- make dynamic - compiles dynamic library
+- make clean - removes all the unneccessary files, run automatically after 'make runA' or 'make runB'
+- make runA - run tests, same as in task 2, for every library compilation method listed above, saves result to file raport3a.txt
+- make runB - run tests, same as in task 2, for every library compilation method listed above and for four levels of optimalization: none, -O0, -O2, -Os, saves result to file raport3b.txt
