@@ -39,11 +39,11 @@ Save results to a file.
 
 ## Results
 ### Task 1 - complete
-	Makefile - commands:
-		- make static - compiles static library
-		- make shared -  compiles shared library
-		- make run - run test program with basic commands as program arguments specified in Makefile
-		- make clean - removes all the unneccessary files, run automatically after 'make run'
+Makefile - commands:
+- make static - compiles static library
+- make shared -  compiles shared library
+- make run - run test program with basic commands as program arguments specified in Makefile
+- make clean - removes all the unneccessary files, run automatically after 'make run'
 
 ### Task 2 - complete
 Makefile - commands:
