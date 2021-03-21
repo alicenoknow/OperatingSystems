@@ -1,0 +1,10 @@
+========== USING SYSTEM FUNCTIONS ==========
+Real time: 0.006572s
+Sys time: 0.000000s
+Usr time: 0.000000s
+
+========== USING LIBRARY FUNCTIONS ===========
+Real time: 0.000621s
+Sys time: 0.000000s
+Usr time: 0.000000s
+
