@@ -1,0 +1,363 @@
+Test 1 - small number of pairs
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000605s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000297s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - large number of pairs
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000605s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000297s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - large number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.001729s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000854s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 4 - small number of rows
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000605s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000297s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - large number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.001729s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000854s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 4 - small number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000815s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000362s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 5 - small number of rows
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000605s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000297s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - large number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.001729s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000854s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 4 - small number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000815s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000362s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 5 - small number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000750s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000549s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 6 - large number of rows
+Test 1 - small number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000072s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - medium number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000605s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000297s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 3 - large number of pairs
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.001729s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000854s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 4 - small number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000815s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000362s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 5 - small number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.000750s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000549s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Test 6 - large number of rows
+
+
+ MERGE WITHOUT FORK
+
+Merge real time: 0.001561s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+
+
+ MERGE WITH FORK
+
+Merge real time: 0.000305s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
