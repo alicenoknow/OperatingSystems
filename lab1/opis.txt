@@ -17,7 +17,6 @@ Zad 3 - kompletne
 		- make static - kompiluje biblioteke w wersji statycznej
 		- make shared - kompiluje biblioteke w wersji wspoldzielonej
 		- make dynamic - kompiluje biblioteke w wersji dynamicznej
-		- make run - uruchamia przykadowy program z lista komend podana jako argument w pliku Makefile
 		- make clean - usuwa zbedne pliki, po wykonaniu run uruchomi sie sam
 		- make runA - wykona testy z zadania 2 dla kazdej powyzszej mozliwosci kompilacji, wynik zapisze w pliku raport3a.txt
 		- make runB - wykona testy z zadania 2 dla kazdej powyzszej mozliwosci kompilacji oraz dla czterech poziomow optymalizacji: brak, -O0, -O2, -Os, wynik zapisze w pliku raport3b.txt
