@@ -1,0 +1,55 @@
+TEST DLA SYGNALU SIGUSR1 i SIGINT
+
+Wyniki programu:
+
+====== FORK ======
+
+FORK HANDLER TEST
+Raising signal in parent
+ Signal received and handled.
+Raising signal in child
+ Signal received and handled.
+ 
+FORK IGNORE TEST
+Raising signal in parent
+Raising signal in child
+
+FORK MASK TEST
+Raising signal in parent
+Signal pending in parent
+Raising signal in child
+Signal pending in child
+
+FORK PENDING TEST
+Raising signal in parent
+Signal pending in parent
+Signal not pending in child
+
+====== EXEC ======
+
+EXEC IGNORE TEST
+Raising signal in parent
+Raising signal in child
+
+EXEC MASK TEST
+Raising signal in parent
+Signal pending in parent
+Raising signal in child
+Signal pending in child
+
+EXEC PENDING TEST
+Raising signal in parent
+Signal pending in parent
+Signal pending in child
+
+
+
+WNIOSKI:
+
+Przy uzyciu funkcji fork, potomek dziedziczy zachowania w opcji handler, ignore, mask.
+Natomiast sygnal wywolany w rodzicu nie jest widoczny (przypadek pending).
+
+Przy uzyciu funkcji exec, potomrk dziedziczy zachowania w opcji ignore, mask. 
+Sygnal wywolany w rodzicu jest widoczny takze w procesie potomnym (przypadek pending).
+
+Dla sygnalow SIGKILL, SIGSTOP zmiana obslugi domyslenej sygnalu nie jest mozliwa. 

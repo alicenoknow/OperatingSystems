@@ -310,3 +310,315 @@ Add and Delete real time: 0.000381s
 Add and Delete sys time: 0.000000s
 Add and Delete usr time: 0.000000s
 
+STATIC LIBLARY
+
+Test 1 - small number of pairs
+Merge real time: 0.000366s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000054s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000029s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000065s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 2 - medium number of pairs
+Merge real time: 0.001654s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000104s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000029s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000146s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 3 - large number of pairs
+Merge real time: 0.005541s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000232s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000030s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000343s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 4 - small number of rows
+Merge real time: 0.000750s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000060s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000028s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000078s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 5 - small number of rows
+Merge real time: 0.001521s
+Merge sys time: 0.010000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000280s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000032s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000138s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 6 - large number of rows
+Merge real time: 0.002943s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000944s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000083s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.001427s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+SHARED LIBLARY
+
+Test 1 - small number of pairs
+Merge real time: 0.000238s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000296s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000028s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000066s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 2 - medium number of pairs
+Merge real time: 0.001000s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000250s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000028s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000147s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 3 - large number of pairs
+Merge real time: 0.003849s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000222s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000031s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000351s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 4 - small number of rows
+Merge real time: 0.000738s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000061s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000028s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000067s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 5 - small number of rows
+Merge real time: 0.000623s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000108s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000034s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000135s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 6 - large number of rows
+Merge real time: 0.001156s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000655s
+Create sys time: 0.010000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000062s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000845s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+DYNAMIC LIBLARY
+
+Test 1 - small number of pairs
+Merge real time: 0.000553s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000054s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000033s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000109s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 2 - medium number of pairs
+Merge real time: 0.002680s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000115s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000028s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000147s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 3 - large number of pairs
+Merge real time: 0.005437s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000218s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000030s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000327s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 4 - small number of rows
+Merge real time: 0.001052s
+Merge sys time: 0.010000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000337s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000033s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000535s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 5 - small number of rows
+Merge real time: 0.000910s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000118s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000032s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000130s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
+Test 6 - large number of rows
+Merge real time: 0.002639s
+Merge sys time: 0.000000s
+Merge usr time: 0.000000s
+
+Create real time: 0.000487s
+Create sys time: 0.000000s
+Create usr time: 0.000000s
+
+Remove real time: 0.000062s
+Remove sys time: 0.000000s
+Remove usr time: 0.000000s
+
+Add and Delete real time: 0.000695s
+Add and Delete sys time: 0.000000s
+Add and Delete usr time: 0.000000s
+
