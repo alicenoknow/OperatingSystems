@@ -8,5 +8,7 @@ clean:
 	rm -f main
 	
 run:
-	./main
+	./main SIGINFO
+	./main NOCLDSTOP
+	./main RESETHAND
 
