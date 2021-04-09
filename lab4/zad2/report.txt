@@ -1,0 +1,51 @@
+    
+____________ SIGINFO_test  _______________
+    
+Scenariusz 1: obsluga sygnalu w procesie
+Scenarisuz 2: obsluga sygnalu w procesie potomnym
+Scenariusz 3: obsluga sygnalu od procesu potomnego
+    
+    Wyniki:
+
+SIGINT handler
+Signal number: 2
+PID of sending process: 6511
+Signal code: 0
+
+SIGINT handler child
+Signal number: 0
+PID of sending process: 856700192
+Signal code: 0
+
+SIGCHLD handler
+Signal number: 17
+PID of sending process: 6511
+Signal code: 1
+
+___________  NOCLDSTOP_test  _____________
+    
+Flaga SA_NOCLDSTOP blokuje sygnal SIGCHLD w przypadku, gdy proces potomny zostaje zatrzymany, ale nie w przypadku, gdy zostaje zakonczony.
+
+Scenariusz: Ustawiam flage NOCLDSTOP. Do procesu potomnego wysylam kolejno sygnaly SIGSTOP i SIGINT, obserwujemy kiedy dostaniemy sygnal SIGCHLD
+	
+	Wyniki:
+
+Sending SIGSTOP to child process
+Sending SIGINT to child process
+
+Parent process received SIGCHLD signal
+    
+___________  RESETHAND_test  _____________
+	
+
+Flaga RESETHAND, przywraca domyslny handler dla sygnalu po wejsciu do aktualnego handlera.
+
+Scenariusz: Ustawiam flage RESETHAND dla sygnalu SIGINT, ustawiam wlasny handler dla sygnalu SIGINT, ktory wyoisuje komunikat, ze sygnal zostal odebrany. Wysylam sygnal dwukrotnie.
+
+	Wyniki
+
+Raising SIGINT
+SIGINT signal received
+
+Raising SIGINT
+make: *** [Makefile:11: run] Interrupt
