@@ -1,15 +1,21 @@
+
 CC = gcc -Wall
 
 compile:
+	$(CC) consumer.c -o consumer
+	$(CC) producer.c -o producer
 	$(CC) main.c -o main
-	$(CC) child.c -o child
+	
 
 clean:
 	rm -f *.o
 	rm -f *.a
 	rm -f *.out
+	rm -f consumer
+	rm -f producer
 	rm -f main
-	rm -f child
 	
 run:
-	./main ignore
+	./main
+
+
