@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#include <errno.h>
 #include <stdlib.h>
 #include <unistd.h> 
 #include <fcntl.h> 
+
 
 
 int read_line(int fd, int chunk, char* line) {
@@ -17,6 +19,7 @@ int read_line(int fd, int chunk, char* line) {
 				break;
             line[i++] = ch;      
         }
+        printf("Consumer tu2\n");
 		
 		if(i == read_bytes){
 			line = realloc(line, read_bytes*2);
@@ -24,6 +27,7 @@ int read_line(int fd, int chunk, char* line) {
 		}
 		else break;
     }
+    printf("Consumer tu3\n");
     return i;
 }
 
@@ -39,11 +43,13 @@ void rewrite(char* file_path, int row, char* content, int chunk){
 		if(count != row){
 			fputs(line, tmp);
 			fputc('\n', tmp);
+			printf("Consumer tu4\n");
 		}
 		else{
 			newline = calloc(strlen(line) + strlen(content), sizeof(char));
 			sprintf(newline, "%s%s\n", line, content);
 			fputs(newline, tmp);
+			printf("Consumer tu5\n");
 		}
 		count++;
 	}
@@ -60,6 +66,10 @@ void rewrite(char* file_path, int row, char* content, int chunk){
     }
 
 	close(fd);
+	if(line)
+		free(line);
+	if(newline)
+		free(newline);
 	fclose(tmp);
 	remove(file_path);
     rename("tmp.txt", file_path);
@@ -84,14 +94,19 @@ int main(int argc, char** argv){
 	FILE* created = fopen(file_path, "w+");
 	fclose(created);
 	
+	printf("Consumer runnng\n");
 	while(read_line(pipe_fd, buf, line) != 0){
+		printf("Consumer read %s\n", line);
 		token = strtok(line, ":");
 		row = atoi(token);
 		output = strtok(NULL, ":");
+		printf("Consumer tu1\n");
 		rewrite(file_path, row, output, buf);
 	}
+	printf("Consumer errnor %s\n", strerror(errno));
 	
-	free(line);
+	if(line)
+		free(line);
 	close(pipe_fd);
 	return 0;
 }

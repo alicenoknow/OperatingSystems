@@ -16,6 +16,9 @@ clean:
 	rm -f main
 	
 run:
-	./main
+	./consumer ./fifo ./result.txt 10
+	./producer ./fifo 2 ./data/r2.txt 10
+	./producer ./fifo 3 ./data/r1.txt 10
+	
 
 

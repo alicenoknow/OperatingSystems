@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <sys/file.h>
+#include <errno.h>
 #include <unistd.h> 
 #include <fcntl.h> 
 
 
 int main(int argc, char** argv){
 
+	printf("Producer runnng\n");
 	if(argc != 5){
 		printf("Wrong number of arguments!\n");
 		exit(1);
@@ -20,12 +23,21 @@ int main(int argc, char** argv){
 	FILE* resources = fopen(file_path, "r");
 	int pipe_fd = open(pipe_path, O_WRONLY);
 	char* buffer = calloc(buf, sizeof(char));
-	char* out = calloc(buf+5, sizeof(char));
+	char* output = calloc(buf+5, sizeof(char));
 	
-	while(fread(buffer, 1, sizeof(buffer), resources) > 0){
+	printf("Producer runnng\n");
+	
+	while(fgets(buffer, sizeof(buffer), resources) > 0){
+		
 		sleep((rand()%2)+1);
-		sprintf(out, "%d:%s\n", row, buffer);
-        write(pipe_fd, out, strlen(out));
+		
+		sprintf(output, "%d:%s\n", row, buffer);
+		flock(pipe_fd, LOCK_EX);
+        write(pipe_fd, output, strlen(output));
+        flock(pipe_fd, LOCK_UN);
+        
+        printf("Producer %d writing %s\n", row, output);
+
 	}
 	
 	free(buffer);
