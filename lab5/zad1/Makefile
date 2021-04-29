@@ -1,15 +1,17 @@
+
 CC = gcc -Wall
 
 compile:
-	$(CC) main.c -o main
-	$(CC) child.c -o child
+	$(CC) -c lib.c
+	ar rcs lib.a lib.o
+	$(CC) main.c lib.a -o main
+	
 
 clean:
 	rm -f *.o
 	rm -f *.a
 	rm -f *.out
 	rm -f main
-	rm -f child
 	
 run:
-	./main ignore
+	./main test1.txt
