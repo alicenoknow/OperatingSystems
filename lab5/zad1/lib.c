@@ -142,11 +142,9 @@ void perform_sequence(Sequence* sequence){
 	int prev = STDIN_FILENO;
 	pid_t pid;
 	
-	
 	for(int i = 0; i < sequence->components_num; i++)
 		for(int j = 0; j < sequence->components[i]->commands_num; j++){
 			Command* cmd = sequence->components[i]->commands[j];
-			
 			pipe(pipe_curr);
 			
 			if ((pid = fork()) == 0) {
@@ -159,6 +157,7 @@ void perform_sequence(Sequence* sequence){
 					dup2(pipe_curr[WRITE], STDOUT_FILENO);
 					close(pipe_curr[WRITE]);
 				}
+				printf("Yas: %s %s\n", cmd->args[0], cmd->args[1]);
 				execvp(cmd->args[0], cmd->args);
 			}
 			

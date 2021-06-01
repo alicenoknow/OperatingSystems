@@ -67,7 +67,6 @@ void ignore_test(int fork_child){
 		wait(NULL);
 	}
 	else{
-		printf("elo");
 		exec_child("ignore");
 	}
 }

@@ -62,7 +62,7 @@ void SIGINFO_test(){
 }
 
 
-// after setting SA_NACLDSTOP flag, parent process will get SIGCHLD only whem child process has terminated, not when stopped
+// after setting SA_NOCLDSTOP flag, parent process will get SIGCHLD only whem child process has terminated, not when stopped
 void NOCLDSTOP_test(){
 	printf("\n\nNOCLDSTOP\n");
 

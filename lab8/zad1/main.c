@@ -169,8 +169,8 @@ void split_by_columns(Reply** threads_block){
 void split_by_values(Reply** threads_block){
 	
 	for (int i = 0; i < threads_no; i++){
-		threads_block[i]->from = 256 / threads_no * threads_block[i]->id;
-		threads_block[i]->to = (256 / threads_no * (threads_block[i]->id + 1));
+		threads_block[i]->from = max_pixel / threads_no * threads_block[i]->id;
+		threads_block[i]->to = (max_pixel / threads_no * (threads_block[i]->id + 1));
 	}
 }
 
