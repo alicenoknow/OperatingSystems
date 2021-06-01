@@ -49,7 +49,7 @@ WNIOSKI:
 Przy uzyciu funkcji fork, potomek dziedziczy zachowania w opcji handler, ignore, mask.
 Natomiast sygnal wywolany w rodzicu nie jest widoczny (przypadek pending).
 
-Przy uzyciu funkcji exec, potomrk dziedziczy zachowania w opcji ignore, mask. 
+Przy uzyciu funkcji exec, potomek dziedziczy zachowania w opcji ignore, mask. 
 Sygnal wywolany w rodzicu jest widoczny takze w procesie potomnym (przypadek pending).
 
 Dla sygnalow SIGKILL, SIGSTOP zmiana obslugi domyslenej sygnalu nie jest mozliwa. 

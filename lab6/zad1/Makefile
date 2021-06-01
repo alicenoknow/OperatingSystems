@@ -13,9 +13,5 @@ clean:
 	rm -f server
 	rm -f client
 	
-server:
-	./server
 
-client:
-	./client
 

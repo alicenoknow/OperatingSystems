@@ -1,7 +1,10 @@
 s1 = cat ../zad2/Makefile | wc -l
 s2 = ls | grep '^M'
 s3 = grep 1
+s4 = ls
 
 s1 | s3 
+s4
+s2
 s1
 s2 
